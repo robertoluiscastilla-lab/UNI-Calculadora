@@ -35,3 +35,41 @@ El programa evalúa las siguientes restricciones antes de realizar los cálculos
 
 * **Manejo de tipos:** Los operandos se gestionan como `double`. En el caso de la potencia, el exponente se convierte explícitamente a entero (`int`) mediante `static_cast`.
 * **Control de flujo e historial:** Si ocurre un error durante la ejecución o el usuario decide no reutilizar el valor previo, el programa resetea automáticamente la memoria de estado para prevenir el arrastre de datos obsoletos.
+
+---
+
+## Cómo ejecutar el proyecto
+
+**Requisitos**
+
+* Tener instalado un compilador de C++ compatible con C++11 o superior.
+
+* Tener Git instalado para clonar el repositorio.
+
+* No es necesario instalar librerías externas, ya que el programa utiliza únicamente librerías estándar de C++.
+
+**1. Clonar el repositorio**
+
+Abre una terminal y ejecuta:
+
+git clone https://github.com/robertoluiscastilla-lab/UNI-Calculadora.git
+
+Luego, entra a la carpeta del proyecto con el siguiente comando:
+
+cd UNI-Calculadora
+
+**2. Compilar el programa**
+
+Si tienes instalado g++, puedes compilar el archivo calculadora.cpp con:
+
+g++ calculadora.cpp -o calculadora
+
+**3. Ejecutar el programa**
+
+En Windows:
+
+calculadora.exe
+
+En Linux o macOS:
+
+./calculadora
